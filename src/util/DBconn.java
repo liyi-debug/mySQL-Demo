@@ -9,8 +9,8 @@ public class DBconn {
 	//String dbClassName="com.mysql.cj.jdbc.Driver";
 	String dbClassName="com.mysql.cj.jdbc.Driver";
 	String dbUrl="jdbc:mysql://127.0.0.1:3306/elms?server&Timezone=Asia/Shangha";
-	String dbUse="root";
-	String dbPaw="209017li";
+	String dbUse="";
+	String dbPaw="";
 	Connection conn;
 	Statement sm;
 	public DBconn()  {
